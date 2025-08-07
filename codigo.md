@@ -8,9 +8,9 @@ Google Cloud SDK instalado localmente
 
 ### 1.1 Configuração Inicial do Projeto
 bash# 1. Instalar Google Cloud SDK (se não tiver)
-# Windows: https://cloud.google.com/sdk/docs/install
-# Mac: brew install google-cloud-sdk
-# Linux: curl https://sdk.cloud.google.com | bash
+### Windows: https://cloud.google.com/sdk/docs/install
+### Mac: brew install google-cloud-sdk
+### Linux: curl https://sdk.cloud.google.com | bash
 
 ## 2. Fazer login
 gcloud auth login
@@ -23,8 +23,8 @@ gcloud projects create $PROJECT_ID --name="PDF QA Generator"
 gcloud config set project $PROJECT_ID
 
 ## 5. Habilitar billing (OBRIGATÓRIO)
-## Vá para: https://console.cloud.google.com/billing
-## Associe seu projeto a uma conta de billing
+### Vá para: https://console.cloud.google.com/billing
+### Associe seu projeto a uma conta de billing
 
 ## 6. Definir região padrão
 
